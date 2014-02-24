@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\UpgradeUI.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Level Design\week6\Temp\Compiled-Normal-Diffuse.shader">
     <Files>
-      <File FileName="Assets\CustomScripts\OpeninhScreen.js" Line="26" Column="2" />
-      <File FileName="Assets\CustomScripts\balancesplayer.js" Line="1" Column="1" />
-      <File FileName="Assets\CustomScripts\DisableCamera.js" Line="1" Column="1" />
-      <File FileName="Assets\CustomScripts\Connect.js" Line="10" Column="1" />
-      <File FileName="Assets\CustomScripts\UpgradeUI.js" Line="42" Column="16" />
+      <File FileName="..\..\Level Design\week6\Temp\Compiled-Normal-Diffuse.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
