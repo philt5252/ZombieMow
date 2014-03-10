@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+[RPC]
 public class FireArrow : MonoBehaviour
 {
 	public Rigidbody arrowPrefab;
@@ -11,7 +11,7 @@ public class FireArrow : MonoBehaviour
 
 	private bool powerUp = false;
 	
-	[RPC]
+	//[RPC]
 	void Update ()
 	{
 		if(Input.GetButtonDown("Fire1"))
