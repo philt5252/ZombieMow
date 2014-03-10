@@ -11,7 +11,7 @@ public class FireArrow : MonoBehaviour
 
 	private bool powerUp = false;
 	
-	
+	[RPC]
 	void Update ()
 	{
 		if(Input.GetButtonDown("Fire1"))
