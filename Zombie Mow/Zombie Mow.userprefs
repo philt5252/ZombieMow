@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\balancesplayer.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\Health.js">
     <Files>
-      <File FileName="Assets\CustomScripts\Connect.js" Line="1" Column="1" />
+      <File FileName="Assets\CustomScripts\balancesplayer.js" Line="1" Column="1" />
+      <File FileName="Assets\CustomScripts\Connect.js" Line="26" Column="34" />
       <File FileName="Assets\CustomScripts\DisableCamera.js" Line="1" Column="1" />
-      <File FileName="Assets\CustomScripts\balancesplayer.js" Line="4" Column="2" />
-      <File FileName="Assets\CustomScripts\Health.js" Line="74" Column="5" />
+      <File FileName="Assets\CustomScripts\balancesplayer.js" Line="1" Column="1" />
+      <File FileName="Assets\CustomScripts\Health.js" Line="19" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
