@@ -71,9 +71,9 @@ function OnGUI()
 	
 }
 
-function ApplyDamage(damage:float)
-{
-	currentHealth -= damage;
-	return;
-
-}
+//function ApplyDamage(damage:float)
+//{
+//	currentHealth -= damage;
+//	return;
+//
+//}
