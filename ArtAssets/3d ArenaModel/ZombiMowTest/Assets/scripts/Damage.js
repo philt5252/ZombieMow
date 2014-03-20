@@ -1,6 +1,6 @@
-﻿var damage = 10;
+﻿var damage : float = 10;
 
-function OnCollisionEnter (collisionInfo)
+function OnTriggerEnter (otherCollider)
 {
-	collisionInfo.other.SendMessage("ApplyDamage", damage, SendMessageOptions.DontRequireReceiver);
+	BroadcastMessage("ApplyDamage", damage, SendMessageOptions.DontRequireReceiver);
 }

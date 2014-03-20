@@ -1,16 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\balancesplayer.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\..\School\6th Quarter\Level Design\final\FinalLevel\Assets\CustomScripts\TrapDoorScript.js">
     <Files>
-      <File FileName="Assets\scripts\balancesplayer.js" Line="14" Column="2" />
-      <File FileName="Assets\scripts\Health.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\ArrowScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\FireArrow.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\Connect.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\balancesplayer.js" Line="4" Column="22" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\DisableCamera.js" Line="3" Column="48" />
+      <File FileName="..\..\..\..\..\..\School\6th Quarter\Level Design\final\FinalLevel\Assets\CustomScripts\TrapDoorScript.js" Line="6" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
