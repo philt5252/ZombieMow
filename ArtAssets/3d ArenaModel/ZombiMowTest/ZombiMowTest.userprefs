@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Damage.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Health.js">
     <Files>
-      <File FileName="Assets\scripts\Damage.js" Line="6" Column="2" />
+      <File FileName="Assets\scripts\Health.js" Line="36" Column="18" />
+      <File FileName="Assets\scripts\balancesplayer.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\DisableCamera.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

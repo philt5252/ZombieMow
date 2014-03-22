@@ -31,11 +31,11 @@ function Update ()
 {
     if (Input.GetButtonDown("Fire1"))
     {   
-       currentAmmo = currentAmmo - 1;
+       currentAmmo = currentAmmo - 10;
        
 //		if(currentAmmo <= 0)
 //		{
-//			Application.LoadLevel(Application.loadedLevel);
+//			
 //		}		
     } 
     

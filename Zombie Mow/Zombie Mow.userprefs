@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\School\6th Quarter\Level Design\final\FinalLevel\Assets\CustomScripts\ButtonScript.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\balancesplayer.js">
     <Files>
-      <File FileName="..\..\..\..\School\6th Quarter\Level Design\final\FinalLevel\Assets\CustomScripts\ButtonScript.js" Line="8" Column="50" />
-      <File FileName="Assets\CustomScripts\balancesplayer.js" Line="10" Column="2" />
-      <File FileName="..\..\..\..\School\6th Quarter\Level Design\final\FinalLevel\Assets\CustomScripts\TrapDoorScript.js" Line="3" Column="11" />
-      <File FileName="Assets\CustomScripts\Connect.js" Line="1" Column="1" />
+      <File FileName="..\ArtAssets\3d ArenaModel\ZombiMowTest\Assets\scripts\balancesplayer.js" Line="4" Column="2" />
+      <File FileName="..\ArtAssets\3d ArenaModel\ZombiMowTest\Assets\scripts\DisableCamera.js" Line="1" Column="1" />
+      <File FileName="Assets\CustomScripts\balancesplayer.js" Line="4" Column="2" />
+      <File FileName="Assets\CustomScripts\DisableCamera.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
