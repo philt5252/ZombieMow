@@ -8,8 +8,8 @@ var healthFGMaxWidth : float;//the starting width of the foreground bar
 var ammoFGMaxWidth : float; //the starting width of the ammo foreground bar
 var currentHealth:float; //the current health status
 var scale : float = 0.25;
-var scalex : float;
-var scaley : float;
+var scaleX : float;
+var scaleY : float;
 var baseScreenX : float = 1024;
 var baseScreenY : float = 768;
 var currentAmmo : float;//starting ammo amount
@@ -21,8 +21,8 @@ function Start()
     ammoFGMaxWidth = ammoFG.width;
     currentHealth = 100;
     currentAmmo = 100;
-    scalex = Screen.width / baseScreenX * scale;
-    scaley = Screen.height / baseScreenY * scale;
+    scaleX = Screen.width / baseScreenX * scale;
+    scaleY = Screen.height / baseScreenY * scale;
 
     
 }
@@ -54,14 +54,14 @@ function OnGUI()
     //a spacing variable to help us position the health
     var gap:int = 20;
     
-    GUI.BeginGroup(new Rect (gap, Screen.height - healthBG.height*scaley - gap, healthBG.width*scalex, healthBG.height*scaley));
-		GUI.DrawTexture(Rect (0,0, healthBG.width*scalex, healthBG.height*scaley), healthBG);
+    GUI.BeginGroup(new Rect (gap, Screen.height - healthBG.height*scaleY - gap, healthBG.width*scaleX, healthBG.height*scaleY));
+		GUI.DrawTexture(Rect (0,0, healthBG.width*scaleX, healthBG.height*scaleY), healthBG);
        
-	       	GUI.BeginGroup(new Rect(0,0, newBarWidth*scalex, healthFG.height*scaley));
-	         	GUI.DrawTexture(Rect(0,0, healthFG.width*scalex, healthFG.height*scaley), healthFG);
+	       	GUI.BeginGroup(new Rect(0,0, newBarWidth*scaleX, healthFG.height*scaleY));
+	         	GUI.DrawTexture(Rect(0,0, healthFG.width*scaleX, healthFG.height*scaleY), healthFG);
 	        		
-	        		GUI.BeginGroup(new Rect(0,0, ammoBarWidth*scalex, ammoFG.height*scaley));
-	         			GUI.DrawTexture(Rect(0,0, ammoFG.width*scalex, ammoFG.height*scaley), ammoFG);
+	        		GUI.BeginGroup(new Rect(0,0, ammoBarWidth*scaleX, ammoFG.height*scaleY));
+	         			GUI.DrawTexture(Rect(0,0, ammoFG.width*scaleX, ammoFG.height*scaleY), ammoFG);
 	        	
 		       		GUI.EndGroup();
 		       		
