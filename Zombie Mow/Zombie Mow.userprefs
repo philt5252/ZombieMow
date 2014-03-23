@@ -1,13 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\Connect.js">
     <Files>
-      <File FileName="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" Line="6" Column="33" />
+      <File FileName="Assets\CustomScripts\balancesplayer.js" Line="26" Column="49" />
+      <File FileName="Assets\CustomScripts\balancesplayer.js" Line="30" Column="2" />
+      <File FileName="Assets\CustomScripts\DisableCamera.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" Line="1" Column="1" />
       <File FileName="..\ArtAssets\3d ArenaModel\ZombiMowTest\Assets\scripts\balancesplayer.js" Line="1" Column="1" />
       <File FileName="..\ArtAssets\3d ArenaModel\ZombiMowTest\Assets\scripts\DisableCamera.js" Line="1" Column="1" />
-      <File FileName="Assets\CustomScripts\balancesplayer.js" Line="1" Column="1" />
-      <File FileName="Assets\CustomScripts\DisableCamera.js" Line="1" Column="1" />
-      <File FileName="Assets\CustomScripts\Connect.js" Line="1" Column="1" />
+      <File FileName="Assets\CustomScripts\Connect.js" Line="10" Column="55" />
+      <File FileName="Assets\CustomScripts\Damage.js" Line="1" Column="1" />
+      <File FileName="Assets\Vehicle Physics Toolkit v1.3\Scripts\Player\CarCameraScript.js" Line="26" Column="1" />
+      <File FileName="Assets\Vehicle Physics Toolkit v1.3\Scripts\AI\AICarScript.js" Line="74" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
