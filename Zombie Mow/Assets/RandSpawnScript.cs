@@ -4,9 +4,11 @@ using System.Collections;
 public class RandSpawnScript : MonoBehaviour {
 
 	public GameObject spawnObject;
-
+	public float spawnSeconds = 5;
+	public Vector3 spawnMinRange;
+	public Vector3 spawnMaxRange;
 	private float elapsedTime = 0;
-	private float spawnSeconds = 5;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -21,8 +23,11 @@ public class RandSpawnScript : MonoBehaviour {
 		if (elapsedTime > spawnSeconds) 
 		{
 			elapsedTime = 0;
-			int i = 0;
-			Network.Instantiate(spawnObject, new Vector3(105, 25, 132), Quaternion.identity, 0);
+
+			float x = Random.Range(spawnMinRange.x, spawnMaxRange.x);
+			float z = Random.Range (spawnMinRange.z, spawnMaxRange.z);
+
+			Network.Instantiate(spawnObject, new Vector3(x, 10, z), Quaternion.identity, 0);
 		}
 		if (Network.connections.Length > 0) 
 		{
