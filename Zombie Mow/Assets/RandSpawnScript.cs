@@ -3,6 +3,8 @@ using System.Collections;
 
 public class RandSpawnScript : MonoBehaviour {
 
+	public GameObject spawnObject;
+
 	private float elapsedTime = 0;
 	private float spawnSeconds = 5;
 	// Use this for initialization
@@ -16,9 +18,11 @@ public class RandSpawnScript : MonoBehaviour {
 	{
 		elapsedTime += Time.deltaTime;
 
-		if (elapsedTime > spawnSeconds*1000) 
+		if (elapsedTime > spawnSeconds) 
 		{
-
+			elapsedTime = 0;
+			int i = 0;
+			Network.Instantiate(spawnObject, new Vector3(105, 25, 132), Quaternion.identity, 0);
 		}
 		if (Network.connections.Length > 0) 
 		{
