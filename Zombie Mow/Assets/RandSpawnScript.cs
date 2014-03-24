@@ -16,6 +16,7 @@ public class RandSpawnScript : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
+
 	void Update () 
 	{
 		elapsedTime += Time.deltaTime;
@@ -27,7 +28,7 @@ public class RandSpawnScript : MonoBehaviour {
 			float x = Random.Range(spawnMinRange.x, spawnMaxRange.x);
 			float z = Random.Range (spawnMinRange.z, spawnMaxRange.z);
 
-			Network.Instantiate(spawnObject, new Vector3(x, 10, z), Quaternion.identity, 0);
+			Network.Instantiate(spawnObject, new Vector3(x, 17, z), Quaternion.identity, 0);
 		}
 		if (Network.connections.Length > 0) 
 		{
